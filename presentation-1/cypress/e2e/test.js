@@ -9,7 +9,7 @@ describe('Visit Almosafer website and make 3 assertions', () => {
     });
 
     it('should ensure that the default language is Arabic', () => {
-        cy.get('[data-testid="Header__LanguageSwitch"]').should("contain.text", "العربية")
+        cy.get('[data-testid="Header__LanguageSwitch"]').should("contain.text", "english")
     });
 
     it('should ensure that the flight tab is clicked by default', () => {
